@@ -1,0 +1,40 @@
+function evenOdd(num){
+    var evenOdd_var = num%2==0 ? "even":"Odd"
+    console.log(`The number ${num} is ${evenOdd_var}.`);
+
+}
+evenOdd(45);
+evenOdd( 70);
+evenOdd( 67);
+evenOdd( 98);
+console.log(`-------------------------------------------------------`);
+
+function voteEligibility(age){
+    if(age>=18){
+        console.log(`${age} you are eligible for vote.`);
+
+    }else{
+       console.log(`${age} you are not eligible for vote.`);
+
+    }
+}
+
+voteEligibility(18);
+voteEligibility(20);
+voteEligibility(17);
+voteEligibility(40);
+
+console.log(`-----------------------------------------------------`);
+var str1 = "JavaScript_ES6";
+var str_len=str1.length;
+if(str_len>10){
+    console.log(`yes,"JavaScript_ES6"this string contain more than 10 character`);
+}else{
+    console.log(`no,"JavaScript_ES6"this string contain more than 10 character`);
+}
+console.log(`-------------------------------------------------------------------`);
+
+var str2= "JavaScript Language";
+var result= str2.startsWith("java");
+console.log(`string start with java ${result}`);
+console.log(`----------------------------------------------------------`);

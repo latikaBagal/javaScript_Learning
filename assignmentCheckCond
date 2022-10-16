@@ -1,0 +1,23 @@
+  function maleMargEligebility(gender,age,boyname){
+    return gender="Male" && age>=25 && boyname // false || true
+    ? ` Hey Congrats ${boyname} you are eligible for Marriage`
+    :  `sorry ${boyname} your age is below 25,you are not eligible for Marriage`
+console.log(`Hey ${boyname} ${result}`);
+
+
+}
+var result= maleMargEligebility('Male',25, 'Billgates');
+var result1 =  maleMargEligebility('Male',17,'Stew Jobs');
+console.log(result);
+console.log(result1);
+
+console.log("===================================================");
+ function femaleMargEligibility(genderr,age,girlname){
+if(genderr="female", age>18){
+console.log(`Hey ${girlname} you are eligible for marriage`);
+}else{
+    console.log(`Hey ${girlname} you are not eligible for marriage`);
+}
+}
+femaleMargEligibility("female",16,"Jenifer");
+femaleMargEligibility("female",27,"malinda Gates");
