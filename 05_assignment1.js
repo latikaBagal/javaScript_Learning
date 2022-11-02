@@ -9,7 +9,7 @@ var greater_number = function(num1,num2){
   greater_number(800,899)
 
   var isEvenOrOdd = function (num1) {
-    var result = num1%2==0 ? "even" : "odd";
+    var result = num1%2==0 ? "true" : "false";
     console.log( result);
    }
    isEvenOrOdd (29);

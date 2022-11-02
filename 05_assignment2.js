@@ -11,8 +11,9 @@ console.log(wordLengthSquare("javaScript"));
 // var givenStringLength = "I am Angular Developer".length;
 // var result = "I am Angular Developer".split("");
 // var total_word = result.length;
-// givenStringLength/total_word;
+//  givenStringLength/total_word;
 // }
+
 
 var str = "I am angular developer";
 var stringLength = str.length;

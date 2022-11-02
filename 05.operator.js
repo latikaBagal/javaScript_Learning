@@ -30,7 +30,8 @@ console.log(`${incr} ${decr}`);
 console.log("=====================Compond Addition Operator========================================");
 var num1 = 100;
 var num2 = 50;
- num1+=num2;// num1 = num1 + num2; 
+var num1 = num1 + num2;// second way to write
+ num1+=num2;// num1 = num1 + num2; //or this way use
 console.log(`Compound Addition operator : += ====> ${num1}`);
 
 
