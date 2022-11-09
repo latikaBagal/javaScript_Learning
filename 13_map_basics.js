@@ -3,10 +3,15 @@ map.set(22, "Sachin");
 map.set(11, "Dravid");
 map.set(33, "Gaungully");
 map.set(77, "Dravid");
+console.log(map);
 
 console.log("--------Adding Duplicate Key--------------");
 map.set(11, "Gautam");
 console.log(map);
+
+console.log("==========================Adding Duplicate key and value=================");
+map.set(33,"Gaungully");
+//console.log(map);
 
 console.log("--------Retrieving Value----------------");
 let value = map.get(33);
@@ -19,6 +24,13 @@ console.log(map);
 
 console.log("----is key available--------------");
 map.has(77);
+
+
+console.log("=====================How to get all keys in map==============================================");
+let setKeys = map.keys();
+console.log(setKeys);
+console.log("=======================================================================================");
+
 
 console.log("------ Traversing over map collection --------");
 let setOfKeys = map.keys();

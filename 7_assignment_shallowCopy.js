@@ -37,29 +37,21 @@ const employee_info = {
     },
  mobiles: ["+91 8600 3456 88","1800-4567 32","+91-9096 5678 77"]
 }
-console.table(employee_info);
+//console.table(employee_info);
 
 console.warn("----------Q.no.5 log the employee details on console------------------------------");
-console.warn("----------------------------------a----------------------------------------------");
-console.log(`employee address is ==>`,employee_info.address,employee_info.address.locality);
+console.warn("----------------------------------a---I am login employee address details-------------------------------------------");
+console.table(employee_info.address);
 console.warn("---------------------------------b--------------------------------------------");
 console.log(`Employee mobile number is ==>`,employee_info.mobiles);
 
 console.warn("----------------Q.no.6---Perform the deep clone using ... operator----------------");
 let clone_emp_info = {...employee_info}
+//console.table(employee_info);
+//console.table(clone_emp_info);
 employee_info.address.locality.street = `At.Nanded Di. 431602`;
 employee_info.mobiles[0]=`8668747445`;
 console.table(employee_info);
-console.log(clone_emp_info);
-console.log(`Due to limitations of spread operator`);
-
-console.warn("----------------------Q.no.7----------employee info program deep cloning using JSON.stringify() method---------------------");
-let clone_emp_info2 =JSON.parse(JSON.stringify(employee_info));
-employee_info.salary.july_month = "80k";
-employee_info.address.country = "United Kingdom";
-console.warn(`Q.7.a----------Original and clone object salary-------------------------`);
-console.log(`Employee original salary in main object==>`,clone_emp_info2.salary.july_month);
-console.log(`Employee salary in clone object==>`,employee_info.salary.july_month);
-console.warn("-------------Q.no.7a--------Original and clone object Country---------------------");
-console.log(`Employee original country value==>`,clone_emp_info2.address.country);
-console.log(`Employee clone country value==>`,employee_info.address.country);
+console.table(clone_emp_info);
+console.log(`... Due to limitations of spread operator`);
+// deep clone mdhe fkt clone mdhech changes vayla pahije hote pn ithe donhimdhe pn zalet
