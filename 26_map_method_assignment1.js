@@ -18,3 +18,11 @@ const squreElement = array_numbers.map((element)=>{
 
 console.log(squreElement);
 console.log(array_numbers);
+
+
+console.log("Add the index value into its corresponding each array element and log new array result on console");
+let addIndexValue=array_numbers.map((element,index)=>{
+return element+index
+
+});
+console.log(addIndexValue);
